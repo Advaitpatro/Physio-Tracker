@@ -1,0 +1,14 @@
+# Core app
+PySide6>=6.5
+mediapipe>=0.10
+opencv-python>=4.8
+numpy>=1.24
+
+# Offline gait analysis / diagnostics / calibration scripts
+scipy>=1.10
+
+# RealSense camera support — only required for physio_app_realsense.py.
+# Skip this if you only run physio_app_webcam_full.py.
+# Also requires the Intel RealSense SDK installed system-wide:
+# https://github.com/IntelRealSense/librealsense
+pyrealsense2>=2.54

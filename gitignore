@@ -1,0 +1,33 @@
+# --- Patient / session data: never commit real or test patient recordings ---
+sessions/
+*_skeleton_live.json
+*_session.csv
+*_angles.csv
+*_gait.csv
+*_info.json
+
+# --- Large model binary: download fresh instead of committing ---
+pose_landmarker_full.task
+*.task
+
+# --- Raw camera recordings ---
+*.bag
+
+# --- Tool-specific / local config ---
+.claude/
+results/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
